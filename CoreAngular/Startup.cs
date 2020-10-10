@@ -25,6 +25,7 @@ namespace CoreAngular
             services.AddSpaStaticFiles(configuration =>
             {
                 configuration.RootPath = "ClientApp/dist";
+
             });
         }
 
